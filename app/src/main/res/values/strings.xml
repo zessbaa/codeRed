@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">CodeRed</string>
+    <string name="logo">logo_picture</string>
+    <string name="email_label_hint">Email...</string>
+    <string name="password_label_hint">Password...</string>
+    <string name="login_btn">Login</string>
+    <string name="signup_btn">Sign up</string>
+    <string name="logo_desc">Logo</string>
+    <string name="email_hint">Email...</string>
+    <string name="password_hint">Password...</string>
+    <string name="login_signup_btn">Sign up</string>
+    <string name="choose_role">CHOOSE A ROLE</string>
+    <string name="registration">Registration</string>
+    <string name="confirm_password_hint">Confirm password...</string>
+    <string name="signup_signup_btn">Sign Up</string>
+    <string name="sender_setup_email">example@mail.com</string>
+    <string name="sender_setup_name_hint">Name</string>
+    <string name="sender_setup_birth">Date of birth</string>
+    <string name="sender_setup_address">Address</string>
+    <string name="sender_setup_phone">Phone</string>
+    <string name="sender_complete_button">Complete profile</string>
+</resources>
