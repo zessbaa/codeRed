@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "254677633017",
+    "firebase_url": "https://codered-1c1f2.firebaseio.com",
+    "project_id": "codered-1c1f2",
+    "storage_bucket": "codered-1c1f2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:254677633017:android:894df4d608fde49d",
+        "android_client_info": {
+          "package_name": "de.fra_uas.egoe.codered"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "254677633017-8d9n2i5cijnrqncuhm69pdnj4pfd87ro.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "de.fra_uas.egoe.codered",
+            "certificate_hash": "5951f2194539c298dc9933a4e8922c367ade7534"
+          }
+        },
+        {
+          "client_id": "254677633017-2rru3kk4jasr48fh1f0u62duk66l4mri.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA8f4tpT0jT4gAoftsflmGj4oOWGliuA68"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "254677633017-2rru3kk4jasr48fh1f0u62duk66l4mri.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
