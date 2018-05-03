@@ -8,5 +8,14 @@
     tools:context=".MainActivity">
 
 
-
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/sender_dashboard_toolbar"
+        android:layout_width="368dp"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="@style/Base.ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </android.support.constraint.ConstraintLayout>
