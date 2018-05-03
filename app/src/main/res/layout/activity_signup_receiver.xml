@@ -8,7 +8,7 @@
     tools:context=".SignupReceiverActivity">
 
     <EditText
-        android:id="@+id/receiver_confirm_password_label"
+        android:id="@+id/sender_confirm_password_label"
         android:layout_width="0dp"
         android:layout_height="64dp"
         android:layout_marginEnd="8dp"
@@ -23,7 +23,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/receiver_password_label" />
+        app:layout_constraintTop_toBottomOf="@+id/sender_password_label" />
 
     <Button
         android:id="@+id/receiver_back_btn"
@@ -77,7 +77,7 @@
         app:layout_constraintTop_toBottomOf="@+id/registration" />
 
     <EditText
-        android:id="@+id/login_email_label"
+        android:id="@+id/sender_email_label"
         android:layout_width="0dp"
         android:layout_height="64dp"
         android:layout_marginEnd="8dp"
@@ -94,7 +94,7 @@
         app:layout_constraintTop_toBottomOf="@+id/divider" />
 
     <EditText
-        android:id="@+id/receiver_password_label"
+        android:id="@+id/sender_password_label"
         android:layout_width="0dp"
         android:layout_height="64dp"
         android:layout_marginEnd="8dp"
@@ -123,7 +123,7 @@
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/receiver_confirm_password_label" />
+        app:layout_constraintTop_toBottomOf="@+id/sender_confirm_password_label" />
 
     <ProgressBar
         android:id="@+id/sender_progress_bar"
@@ -154,6 +154,6 @@
         android:backgroundTint="@color/colorAccent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/login_email_label" />
+        app:layout_constraintTop_toBottomOf="@+id/sender_email_label" />
 
 </android.support.constraint.ConstraintLayout>
