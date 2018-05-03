@@ -144,6 +144,7 @@
         style="?android:attr/progressBarStyle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
@@ -151,9 +152,10 @@
         android:indeterminateTint="@color/colorDarkRed"
         android:indeterminateTintMode="src_in"
         android:progressBackgroundTintMode="src_over"
-        android:visibility="visible"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/sender_setup_complete_btn" />
+        app:layout_constraintTop_toTopOf="@+id/sender_account_setup_toolbar" />
 
 </android.support.constraint.ConstraintLayout>

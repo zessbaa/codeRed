@@ -78,6 +78,13 @@ public class LoginActivity extends AppCompatActivity {
             }
         });
 
+        registerBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                goToRole();
+            }
+        });
+
 
 
     }
@@ -97,6 +104,12 @@ public class LoginActivity extends AppCompatActivity {
     public void goToMain() {
         Intent loginIntent = new Intent(LoginActivity.this, MainActivity.class);
         startActivity(loginIntent);
+        finish();
+    }
+
+    public void goToRole() {
+        Intent RoleIntent = new Intent(LoginActivity.this, ChooseRoleActivity.class);
+        startActivity(RoleIntent);
         finish();
     }
 }
