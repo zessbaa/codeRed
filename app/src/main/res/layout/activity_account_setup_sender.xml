@@ -78,7 +78,7 @@
         app:layout_constraintTop_toBottomOf="@+id/sender_setup_name" />
 
     <Spinner
-        android:id="@+id/spinner2"
+        android:id="@+id/sender_gender_spinner"
         style="@style/Base.Widget.AppCompat.Spinner.Underlined"
         android:layout_width="150dp"
         android:layout_height="45dp"

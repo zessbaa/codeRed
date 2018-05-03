@@ -21,4 +21,13 @@
     <string name="sender_complete_button">Complete profile</string>
     <string name="account_settings">Account Settings</string>
     <string name="logout">Logout</string>
+
+
+    <string-array name="gender_array">
+        <item>Male</item>
+        <item>Female</item>
+        <item>Other</item>
+
+    </string-array>
+
 </resources>

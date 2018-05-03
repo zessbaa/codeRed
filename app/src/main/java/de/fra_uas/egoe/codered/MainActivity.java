@@ -63,11 +63,19 @@ public class MainActivity extends AppCompatActivity {
 
                 return true;
 
+            case R.id.action_account_settings:
+                goToSetting();
+
             default:
                 return false;
         }
 
 
+    }
+
+    private void goToSetting() {
+        Intent loginIntent = new Intent(MainActivity.this, AccountSetupSenderActivity.class);
+        startActivity(loginIntent);
     }
 
     private void goToLogin() {
