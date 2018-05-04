@@ -18,7 +18,7 @@
     <string name="sender_setup_birth">Date of birth</string>
     <string name="sender_setup_address">Address</string>
     <string name="sender_setup_phone">Phone</string>
-    <string name="sender_complete_button">Complete profile</string>
+    <string name="sender_setup_button">Save profile</string>
     <string name="account_settings">Account Settings</string>
     <string name="logout">Logout</string>
 

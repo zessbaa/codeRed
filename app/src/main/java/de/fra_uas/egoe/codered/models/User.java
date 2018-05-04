@@ -2,14 +2,24 @@ package de.fra_uas.egoe.codered.models;
 
 public class User {
 
-    private String email, name, address, phone, gender, organisation, profile_picture;
+    private String email;
+    private String name;
+    private String address;
+    private String phone;
+    private String gender;
+    private String organisation;
+    private String profile_picture;
+
+
+
+    private String birth;
     private double latitude, longitude;
     private boolean is_active, is_receiver;
 
 
     public User() {}
 
-    public User(String email, String name, String address, String phone, String gender, String organisation, String profile_picture, double latitude, double longitude, boolean is_active, boolean is_receiver) {
+    public User(String email, String name, String address, String phone, String gender, String birth, String organisation, String profile_picture, double latitude, double longitude, boolean is_active, boolean is_receiver) {
         this.email = email;
         this.name = name;
         this.address = address;
@@ -21,8 +31,16 @@ public class User {
         this.longitude = longitude;
         this.is_active = is_active;
         this.is_receiver = is_receiver;
+        this.birth = birth;
     }
 
+    public String getBirth() {
+        return birth;
+    }
+
+    public void setBirth(String birth) {
+        this.birth = birth;
+    }
     public String getEmail() {
         return email;
     }
